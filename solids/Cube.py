@@ -3,7 +3,7 @@ from numpy.random import default_rng
 from solids.BaseSolid import BaseSolid
 
 class Cube(BaseSolid):
-    def __init__(self,length=1):
+    def __init__(self, length=1):
         self.L = length
         self.rng = default_rng()
 
