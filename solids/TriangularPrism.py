@@ -1,6 +1,6 @@
 import numpy as np
 from numpy.random import default_rng
-from solids.BaseSolid import BaseSolid
+from .BaseSolid import BaseSolid
 
 class TriangularPrism(BaseSolid):
     def __init__(self, edge=1, height=2):

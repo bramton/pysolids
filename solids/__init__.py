@@ -1,4 +1,4 @@
-#__all__ = ['Cube','Cylinder','Sphere']
+__all__ = ['Cube','Cone','Cylinder','Sphere', 'HemiSphere','Tetrahedron', 'Torus','TriangularPrism']
 from .Cone import Cone
 from .Cube import Cube
 from .Cylinder import Cylinder

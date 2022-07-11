@@ -1,6 +1,6 @@
 import numpy as np
 from numpy.random import default_rng
-from solids.BaseSolid import BaseSolid
+from .BaseSolid import BaseSolid
 
 class Torus(BaseSolid):
     def __init__(self, R=2.5, r=1):
