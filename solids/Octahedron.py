@@ -1,6 +1,6 @@
 import numpy as np
 from numpy.random import default_rng
-from solids.BaseSolid import BaseSolid
+from .BaseSolid import BaseSolid
 
 class Octahedron(BaseSolid):
     def __init__(self, length=1):
