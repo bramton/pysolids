@@ -33,8 +33,9 @@ class Tetrahedron(BaseSolid):
         v[2,:] = [1, 1, 0]
         v[3,:] = [0, 1, 1]
 
+        v = v - [0.5, 0.5, 0.5] # Centre Tetrahedron
+
         v = v*(self.L/np.sqrt(2)) # Set the edge length
-        v = v - (self.L ** 2)/2 # Centre tetrahedron
 
         return v
 
